@@ -44,7 +44,7 @@ header{
 }
 
 .banner{
-	background-image: url(/assets/3d/banner.jpeg);
+	background-image: url(assets/3d/banner.jpeg);
 	background-size:cover;
 	background-color: #514091;
 	background-blend-mode: overlay;
@@ -183,7 +183,7 @@ footer{
 		display:none;
 	}
 	.container-process{
-		background-image:url(/assets/3d/closeup.jpeg);
+		background-image:url(assets/3d/closeup.jpeg);
 		background-size: cover;
 		background-color: #323232;
 		background-blend-mode: overlay;
