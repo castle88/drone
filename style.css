@@ -8,17 +8,56 @@ body{
 }
 /* Style ********************************************************************* */
 
+body{
+	font-size: 15px;
+	color:white;
+	line-height: 2;
+	background:#323232;
+	text-align: center;
+}
 
-
-
-
-
-
+.main-content{
+	background-image:url(assets/3d/main.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:rgb(97, 199, 50);
+	text-transform: uppercase;
+}
+.cta{
+	color:whitesmoke;
+}
+.main-content h2{
+	font-size:.75rem;
+}
+.main-content p{
+	text-transform: capitalize;
+	font-size: .7rem;
+}
 
 /* Layout ******************************************************************** */
 
-
-
-
-
-
+.main-content{
+	display:flex;
+	flex-direction: column;
+	min-height: 40vh;
+	flex-basis: 100vw;
+	justify-content: start;
+	padding:1.5rem 0;
+}
+.main-content h1{
+}
+.cta{
+	flex:2;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	padding:0 2rem;
+}
+.banner{
+	background-image: url(/assets/3d/banner.jpeg);
+	background-size:cover;
+	background-color: #514091;
+	background-blend-mode: overlay;
+	min-height: 20vh;
+}
